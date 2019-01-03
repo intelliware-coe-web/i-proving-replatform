@@ -1,0 +1,40 @@
+[debug] [2019-01-03T19:33:31.156Z] ----------------------------------------------------------------------
+[debug] [2019-01-03T19:33:31.158Z] Command:       /usr/local/Cellar/node/11.3.0_1/bin/node /usr/local/bin/firebase serve
+[debug] [2019-01-03T19:33:31.158Z] CLI Version:   6.1.2
+[debug] [2019-01-03T19:33:31.158Z] Platform:      darwin
+[debug] [2019-01-03T19:33:31.158Z] Node Version:  v11.3.0
+[debug] [2019-01-03T19:33:31.159Z] Time:          Thu Jan 03 2019 14:33:31 GMT-0500 (Eastern Standard Time)
+[debug] [2019-01-03T19:33:31.159Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-01-03T19:33:31.170Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-01-03T19:33:31.170Z] > authorizing via signed-in user
+[debug] [2019-01-03T19:33:31.171Z] [iam] checking project pwas-47e03 for permissions ["firebase.projects.get"]
+[debug] [2019-01-03T19:33:31.172Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/pwas-47e03:testIamPermissions  
+
+[debug] [2019-01-03T19:33:31.454Z] <<< HTTP RESPONSE 200
+[debug] [2019-01-03T19:33:31.455Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/pwas-47e03  
+ 
+[debug] [2019-01-03T19:33:31.708Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/achung/workspace/i-proving-upgrade'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-01-03T19:33:32.110Z] Fetching environment
+[debug] [2019-01-03T19:33:32.112Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/673070872672:getServerAppConfig  
+ 
+[debug] [2019-01-03T19:33:32.113Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/673070872672/clients/_:getWebAppConfig  
+ 
+[debug] [2019-01-03T19:33:32.242Z] <<< HTTP RESPONSE 200
+[debug] [2019-01-03T19:33:32.242Z] Starting @google-cloud/functions-emulator
+[debug] [2019-01-03T19:33:32.306Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-01-03T19:33:33.289Z] Parsing function triggers
+[info] ✔  functions: screenshot: http://localhost:5001/pwas-47e03/us-central1/screenshot
+[info] ✔  functions: version: http://localhost:5001/pwas-47e03/us-central1/version
+[info] [hosting] Rewriting /posts to local function posts
+[info] ✔  functions: render: http://localhost:5001/pwas-47e03/us-central1/render
+[info] ✔  functions: posts: http://localhost:5001/pwas-47e03/us-central1/posts
+[info] [hosting] Rewriting /posts to local function posts
+[info] [hosting] Rewriting /posts to local function posts
+[info] [hosting] Rewriting /posts to local function posts
